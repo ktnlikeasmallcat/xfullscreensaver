@@ -1,0 +1,7 @@
+ [module/screensave]
+ type = custom/script
+ exec = ~/.local/bin/xfullwrap.sh
+ interval = 1
+ click-left = ~/.local/bin/xfullscreen.sh
+ click-right = pkill xfullscreen.sh
+ 
